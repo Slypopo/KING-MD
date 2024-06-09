@@ -19,7 +19,7 @@ module.exports = {
   ownername: process.env.OWNER_NAME === undefined ? 'Am Me' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? true : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'Naveed-Dogar' : process.env.PACK_AUTHER.split(";")[0],
-  auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
+  auto_read_status :  process.env.AUTO_READ_STATUS  || 'false' ,
   packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'King-Md' : process.env.PACK_NAME.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION ||  'true' ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? '' : process.env.ANTI_BAD_WORD,
